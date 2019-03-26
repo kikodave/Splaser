@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 7303086277770908477}
   - component: {fileID: 7303086277770908478}
   - component: {fileID: 7303086277770908479}
+  - component: {fileID: 1976973499}
   m_Layer: 0
   m_Name: Background
   m_TagString: Untagged
@@ -27,7 +28,7 @@ Transform:
   m_GameObject: {fileID: 7303086277770908473}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.36, y: -19.5, z: 0}
-  m_LocalScale: {x: 25.203623, y: 61.084877, z: 1}
+  m_LocalScale: {x: 28.421648, y: 61.084877, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -57,7 +58,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 338ab038ba6a14c8a93d888f9f25333f, type: 2}
+  - {fileID: 2100000, guid: add17f23021458c4c9590eb91be3f38e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -77,3 +78,16 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!114 &1976973499
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7303086277770908473}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27caf6c4311c747249d153000a8ac1e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scrollSpeed: 0.1
