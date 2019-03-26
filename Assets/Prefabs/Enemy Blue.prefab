@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 8318765932696100471}
   - component: {fileID: 1015496351}
   - component: {fileID: 3624159045999837757}
+  - component: {fileID: 1523936793378857183}
   - component: {fileID: 944702154746471351}
   - component: {fileID: 3512525651147856636}
   m_Layer: 9
@@ -121,6 +122,27 @@ MonoBehaviour:
   deathSFXVolume: 0.7
   shootSFX: {fileID: 8300000, guid: 8e131727cc8bf47639d7e04c3ecb10be, type: 3}
   shootSFXVolume: 0.35
+--- !u!50 &1523936793378857183
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8318765932696100470}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!58 &944702154746471351
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -131,7 +153,7 @@ CircleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0.03552288}
@@ -149,4 +171,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b98cd4331ba5d4bf7a50f196f88dcca3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 100
+  damage: 200

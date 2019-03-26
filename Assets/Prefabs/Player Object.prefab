@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 5226356654006852029}
   - component: {fileID: 5226356654006852019}
   - component: {fileID: 1557878211}
-  - component: {fileID: 5749592232338376567}
   m_Layer: 8
   m_Name: Player Object
   m_TagString: Player
@@ -97,7 +96,7 @@ MonoBehaviour:
   moveSpeed: 10
   padding: 1
   health: 1000
-  deathSFX: {fileID: 8300000, guid: c590af03f2f944af9b5c763bd36f7c0c, type: 3}
+  deathSFX: {fileID: 8300000, guid: e1dffe2c4663c44309e0f7164755f1c9, type: 3}
   deathSFXVolume: 5
   shootSFX: {fileID: 8300000, guid: 86e80a1c4076c4fffadd0058a3441adb, type: 3}
   shootSFXVolume: 0.1
@@ -155,24 +154,3 @@ PolygonCollider2D:
       - {x: 0.18519442, y: -0.26733303}
       - {x: 0.3272083, y: -0.31174946}
       - {x: 0.38759714, y: -0.31213856}
---- !u!50 &5749592232338376567
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5226356654006852028}
-  m_BodyType: 1
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
