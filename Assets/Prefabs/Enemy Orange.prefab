@@ -117,6 +117,10 @@ MonoBehaviour:
   deathVFX: {fileID: 6431550574521861391, guid: 4925a090fccd99e4b8604b99dac27285,
     type: 3}
   durationOfExplosion: 1
+  deathSFX: {fileID: 8300000, guid: c590af03f2f944af9b5c763bd36f7c0c, type: 3}
+  deathSFXVolume: 0.7
+  shootSFX: {fileID: 8300000, guid: 8e131727cc8bf47639d7e04c3ecb10be, type: 3}
+  shootSFXVolume: 0.35
 --- !u!58 &3461110926841874493
 CircleCollider2D:
   m_ObjectHideFlags: 0
