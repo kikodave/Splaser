@@ -109,7 +109,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 100
-  shotCounter: 0
   minTimeBetweenShots: 0.2
   maxTimeBetweeenShots: 3
   scoreValue: 150
@@ -121,7 +120,7 @@ MonoBehaviour:
   durationOfExplosion: 1
   deathSFX: {fileID: 8300000, guid: c590af03f2f944af9b5c763bd36f7c0c, type: 3}
   deathSFXVolume: 0.7
-  shootSFX: {fileID: 8300000, guid: 8e131727cc8bf47639d7e04c3ecb10be, type: 3}
+  shootSFX: {fileID: 8300000, guid: 5369930f2d89b43909436ca336c5d83f, type: 3}
   shootSFXVolume: 0.35
 --- !u!50 &1523936793378857183
 Rigidbody2D:
