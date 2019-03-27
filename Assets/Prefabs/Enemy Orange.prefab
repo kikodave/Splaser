@@ -112,6 +112,7 @@ MonoBehaviour:
   shotCounter: 0
   minTimeBetweenShots: 0.2
   maxTimeBetweeenShots: 3
+  scoreValue: 150
   projectile: {fileID: 2875034477778750533, guid: 291b7d8b690f2429799277984069dd49,
     type: 3}
   projectileSpeed: 10
@@ -171,4 +172,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b98cd4331ba5d4bf7a50f196f88dcca3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 200
+  damage: 500

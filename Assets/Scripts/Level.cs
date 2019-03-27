@@ -16,6 +16,7 @@ public class Level : MonoBehaviour
     public void LoadMainScene()
     {
         SceneManager.LoadScene("Main Scene");
+        FindObjectOfType<GameSession>().ResetGame();
     }
 
     // needs to be changed if more levels added
