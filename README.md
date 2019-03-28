@@ -6,4 +6,4 @@ https://kikodave.itch.io/splaser
 
 Written in C# using Unity.
 
-Licensed under GPL3.0 
+Licensed under GPL-3.0 
